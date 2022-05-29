@@ -1,24 +1,12 @@
-# README
+# Sequra test
+This is the coding challenge for people who applied to a backend developer position at SeQura. It's been designed to be a simplified version of the same problems we deal with.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+From `Rails 6.1.5` and having `Postgresql >= 9.5`, `Ruby: 2.7.4` libraries execute:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```shell
+bundle install
+bundle exec rails db:setup
+rails s
+```
